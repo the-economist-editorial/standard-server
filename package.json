@@ -8,6 +8,10 @@
   "homepage": "http://github.com/the-economist-editorial/standard-server",
   "bugs": "http://github.com/the-economist-editorial/standard-server/issues",
   "main": "standard-server.js",
+  "files": [
+    "*.js",
+    "*.es6"
+  ],
   "babel": {
     "stage": 1,
     "loose": "all",
