@@ -13,6 +13,7 @@ export default ({
   const maxAgeInMilliseconds = maxAge * oneSecondInMilliseconds;
   const staticAssets = staticMiddleware({
     path: staticDirectory,
+    url: uri,
     cache: {
       /* eslint-disable id-length */
       fd: {
