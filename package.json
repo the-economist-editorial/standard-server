@@ -46,6 +46,7 @@
     "st": "^1.0.0"
   },
   "devDependencies": {
+    "babel-core": "^5.8.38",
     "babel-eslint": "^4.1.3",
     "chai": "^3.4.0",
     "chai-http": "^1.0.0",
